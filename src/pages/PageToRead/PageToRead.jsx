@@ -16,8 +16,8 @@ const PageToRead = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <main className="max-w-4xl mx-auto my-28">
-        <BarChart width={896} height={450} data={data}>
+      <main className="max-w-6xl mx-auto my-28">
+        <BarChart width={1000} height={450} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="author" />
           <YAxis />
