@@ -7,3 +7,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
 }
+
+a.active {
+  color: #23be0a;
+  border: 1px solid #23be0a;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
